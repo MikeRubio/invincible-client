@@ -6,19 +6,19 @@ const Banner = () => {
       <div className="flex justify-end mr-5">
         <div className="flex h-56">
           <ul className="m-2">
-            <p className="text-5xl font-title text-yellow-500 transform hover:scale-105 transition-transform">
+            <p className="text-5xl font-title cursor-pointer text-yellow-500 transform hover:scale-105 transition-transform">
               Docs
             </p>
           </ul>
           <ul className="m-2">
-            <p className="text-5xl font-title text-yellow-500 transform hover:scale-105 transition-transform">
+            <p className="text-5xl font-title cursor-pointer text-yellow-500 transform hover:scale-105 transition-transform">
               About
             </p>
           </ul>
         </div>
       </div>
       <div className="flex justify-center">
-        <p class="text-9xl text-yellow-500 font-title font-outline-4 tracking-tight">
+        <p className="text-9xl cursor-default text-yellow-500 font-title font-outline-4 tracking-tight">
           INVINCIBLE API
         </p>
       </div>
