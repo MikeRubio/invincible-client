@@ -1,5 +1,5 @@
 import Banner from "./components/Banner";
-import Characters from "./components/Characters";
+import Characters from "./components/characters/Characters";
 import Footer from "./components/Footer";
 
 export default function App() {
