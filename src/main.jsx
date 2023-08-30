@@ -6,7 +6,7 @@ import App from "./App.jsx";
 import "./index.css";
 
 const client = new ApolloClient({
-  uri: "invincible-api.railway.internal/graphql",
+  uri: "https://invincible-api.railway.internal/graphql",
   headers: {
     "content-type": "application/json",
   },
